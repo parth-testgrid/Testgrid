@@ -100,13 +100,32 @@ section {
   right: 0px;
 }
 
+.blog-title {
+  font: normal normal 600 35px/25px Montserrat;
+  margin-bottom: 30px;
+}
+
+.blog-description p {
+  font: normal normal 400 24px/36px Montserrat;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+
 /* MEDIA QUERIES */
 @media (max-width: 1600px) and (min-width: 992px) {
   .navbar-nav a {
     white-space: normal;
   }
 
-  .title-1, .title-2 {
+  .title-1,
+  .title-2 {
     font-size: 42px;
   }
 }
@@ -115,6 +134,7 @@ section {
   .navbar-brand {
     margin-right: 50px;
   }
+
   nav .navbar-nav {
     gap: 20px;
   }
