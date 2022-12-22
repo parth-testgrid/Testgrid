@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+  --background: transparent linear-gradient(270deg, #2F0F5A 0%, #1B0541 100%) 0% 0% no-repeat padding-box;
+  --green: #17A689;
+}
+
+body {
+  background: var(--background);
+  opacity: 1;
+}
+
+nav {
+  font: normal normal 600 16px/28px Montserrat;
+  margin-bottom: 108px;
+}
+
+nav .book-a-demo {
+  padding: 15px;
+  text-decoration: none;
+  background: transparent linear-gradient(270deg, var(--green) 0%, #2B947E 100%) 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  box-shadow: 0px 5px 0px #155A4A;
+  text-shadow: 0px 2px 4px #00000080;
+  width: 188px;
+  height: 52px;
+  margin-left: 6px;
+}
+
+.navbar-brand {
+  margin-right: 100px;
+}
+
+.navbar-nav a {
+  white-space: nowrap;
+}
+
+/* .nav-item:not(:last-child, :first-child) {
+  margin: 0 20px;
+}
+.nav-item:first-child {
+  margin-right: 20px;
+} */
+
+nav .navbar-nav {
+  gap: 40px;
+}
+
+section {
+  margin: 130px 0;
+}
+
+.title-1 {
+  font: normal normal 600 50px/65px Montserrat;
+}
+
+.title-2 {
+  font: normal normal bold 50px/65px Montserrat;
+  color: var(--green);
+}
+
+.hero-body {
+  margin-top: 64px;
+}
+
+.hero .description {
+  margin-top: 18px;
+  font: normal normal 500 24px/29px Montserrat;
+}
+
+.price {
+  font: normal normal bold 35px/43px Montserrat;
+}
+
+.green {
+  font: normal normal 600 30px/43px Montserrat;
+  color: var(--green);
+}
+
+.cta a {
+  background: transparent linear-gradient(270deg, #14A485 0%, #2B947E 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 0px #155A4A;
+  border-radius: 6px;
+  padding: 15px 36px;
+}
+
+.cta {
+  margin-top: 50px;
+}
+
+.hero-banner img {
+  margin-left: 132px;
+}
+
+.pattern {
+  z-index: -1;
+  /* bottom: -194px;
+  right: -303px; */
+  bottom: 0px;
+  right: 0px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1600px) and (min-width: 992px) {
+  .navbar-nav a {
+    white-space: normal;
+  }
+
+  .title-1, .title-2 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 1400px) and (min-width: 992px) {
+  .navbar-brand {
+    margin-right: 50px;
+  }
+  nav .navbar-nav {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  nav .navbar-nav {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  nav .navbar-nav {
+    gap: 10px;
+  }
+}
