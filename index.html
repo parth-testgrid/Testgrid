@@ -8,13 +8,13 @@
   <title>Testgrid</title>
   <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <script src="js/bootstrap/bootstrap.js" defer></script>
-  <script src="js/script.js" defer></script>
+  <script src="assets/js/bootstrap/bootstrap.js" defer></script>
+  <script src="assets/js/script.js" defer></script>
 </head>
 
 <body>
   <div class="container-fluid">
-    <nav class="navbar container navbar-expand-lg p-0 navbar-dark justify-content-center mt-lg-5 mt-2">
+    <nav class="navbar container navbar-expand-lg p-0 navbar-dark justify-content-center mt-lg-5 mt-4">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="assets/images/logo.svg" alt="Logo" width="172" height="32" class="d-inline-block align-text-top">
@@ -26,30 +26,30 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav align-items-center">
             <li class="nav-item">
-              <a class="nav-link text-white active" aria-current="page" href="#">TestOS</a>
+              <a class="nav-link text-white text-nowrap active" aria-current="page" href="#">TestOS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Solutions</a>
+              <a class="nav-link text-white text-nowrap" href="#">Solutions</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Infrastructure</a>
+              <a class="nav-link text-white text-nowrap" href="#">Infrastructure</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white">Real Device Cloud</a>
+              <a class="nav-link text-white text-nowrap">Real Device Cloud</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white">Pricing</a>
+              <a class="nav-link text-white text-nowrap">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white">Resources</a>
+              <a class="nav-link text-white text-nowrap">Resources</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white">Sign in</a>
+              <a class="nav-link text-white text-nowrap">Sign in</a>
             </li>
             <!-- <li class="nav-item mt-3 mt-lg-0">
             </li> -->
           </ul>
-          <div class="nav-btn d-flex justify-content-center">
+          <div class="nav-btn mt-3 mt-lg-0 d-flex justify-content-center">
             <a role="button" class="border-0 text-white text-nowrap book-a-demo ms-lg-4 ms-0">
               <img src="assets/images/book a demo.svg" alt="">
               Book a demo
@@ -60,27 +60,29 @@
     </nav>
     <div class="hero-container position-relative overflow-hidden">
       <section class="hero d-flex container">
-        <div class="hero-body w-50 text-white">
-          <h1 class="title-1">AI-powered Scriptless</h1>
-          <h1 class="title-1 text-nowrap">Test Automation for Salesforce</h1>
-          <h1 class="title-2">
-            WEB AND MOBILE APPS
-          </h1>
-          <p class="description">
-            Automate your flutter app testing in a scriptless manner on real physical devices.
-          </p>
-          <p class="price">
-            <span class="green">Starts at</span> $20
-          </p>
-          <div class="cta">
-            <a role="button" class="border-0 text-white text-nowrap text-decoration-none">
-              <img src="assets/images/book a demo.svg" class="mr-1" alt="">
-              Book a demo
-            </a>
+        <div class="row">
+          <div class="hero-body col-12 col-xl-6 text-white mb-5 mb-xl-0">
+            <h1 class="title-1">AI-powered Scriptless</h1>
+            <h1 class="title-1">Test Automation for Salesforce</h1>
+            <h1 class="title-2">
+              WEB AND MOBILE APPS
+            </h1>
+            <p class="description">
+              Automate your flutter app testing in a scriptless manner on real physical devices.
+            </p>
+            <p class="price">
+              <span class="green">Starts at</span> $20
+            </p>
+            <div class="cta">
+              <a role="button" class="border-0 text-white text-nowrap text-decoration-none">
+                <img src="assets/images/book a demo.svg" class="mr-1" alt="">
+                Book a demo
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="hero-banner">
-          <img src="assets/images/hero banner.svg" alt="">
+          <div class="hero-banner col-12 col-xl-6 text-center">
+            <img src="assets/images/hero-banner.png" alt="">
+          </div>
         </div>
       </section>
       <img src="assets/images/hero pattern.svg" class="position-absolute pattern" alt="">
@@ -91,23 +93,26 @@
     </div>
 
     <section class="blog-post text-white container d-flex">
-      <div class="blog-description w-50">
-        <h2 class="blog-title green">End to End Salesforce Testing</h2>
-        <p class="mb-4">Salesforce has now become an entire ecosystem of critical apps, managed packages and third-party
-          plugins. To
-          stay competitive, teams must now test and deliver across this complex ecosystem in the fastest way possible.
-        </p>
-        <p>TestGrid helps users deliver customizations and integrations with confidence, and eliminate risk of bugs.
-          Automate validation to scale your testing and test-driven development (TDD) efforts.</p>
-        <div class="cta">
-          <a role="button" class="border-0 text-white text-nowrap text-decoration-none">
-            <img src="assets/images/book a demo.svg" class="mr-1" alt="">
-            Book a demo
-          </a>
+      <div class="row justify-content-center">
+        <div class="blog-description col-12 col-xl-6 mb-5 mb-xl-0">
+          <h2 class="blog-title green">End to End Salesforce Testing</h2>
+          <p class="mb-4">Salesforce has now become an entire ecosystem of critical apps, managed packages and
+            third-party
+            plugins. To
+            stay competitive, teams must now test and deliver across this complex ecosystem in the fastest way possible.
+          </p>
+          <p>TestGrid helps users deliver customizations and integrations with confidence, and eliminate risk of bugs.
+            Automate validation to scale your testing and test-driven development (TDD) efforts.</p>
+          <div class="cta">
+            <a role="button" class="border-0 text-white text-nowrap text-decoration-none">
+              <img src="assets/images/book a demo.svg" class="mr-1" alt="">
+              Book a demo
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="blog-img w-50">
-        <img src="assets/images/blog-post.png" alt="">
+        <div class="blog-img col-12 col-xl-6 text-center">
+          <img src="assets/images/blog-post.png" alt="">
+        </div>
       </div>
     </section>
 
@@ -116,53 +121,58 @@
     </div>
 
     <section class="customers container">
-      <div class="customers-container customers-gap d-flex align-items-center justify-content-center">
-        <div class="customer bg-white">
-          <img src="assets/images/gallery/state_of_california.png" alt="">
-        </div>
-        <div class="d-flex flex-column customers-gap">
+      <div
+        class="customers-container customers-gap d-flex flex-wrap flex-xl-nowrap align-items-center justify-content-center">
+        <div class="d-flex align-items-center justify-content-center customers-gap flex-wrap flex-md-nowrap">
           <div class="customer bg-white">
-            <img src="assets/images/gallery/nolan_transportation_group.png" alt="">
+            <img src="assets/images/gallery/state_of_california.png" alt="">
           </div>
-          <div class="customer bg-white">
-            <img src="assets/images/gallery/munich_re.png" alt="">
+          <div class="d-flex flex-column customers-gap">
+            <div class="customer bg-white">
+              <img src="assets/images/gallery/nolan_transportation_group.png" alt="">
+            </div>
+            <div class="customer bg-white">
+              <img src="assets/images/gallery/munich_re.png" alt="">
+            </div>
+            <div class="customer bg-white">
+              <img src="assets/images/gallery/marlabs.png" alt="xyz">
+            </div>
           </div>
-          <div class="customer bg-white">
-            <img src="assets/images/gallery/marlabs.png" alt="">
-          </div>
-        </div>
-        <div class="d-flex flex-column customers-gap">
-          <div class="customer bg-white">
-            <img src="assets/images/gallery/aflac.png" alt="">
-          </div>
-          <div class="customer bg-white">
-            <img src="assets/images/gallery/cognizant.png" alt="">
+          <div class="d-flex flex-column customers-gap">
+            <div class="customer bg-white">
+              <img src="assets/images/gallery/aflac.png" alt="">
+            </div>
+            <div class="customer bg-white">
+              <img src="assets/images/gallery/cognizant.png" alt="">
+            </div>
           </div>
         </div>
         <div class="customer bg-white p-0">
-          <img src="assets/images/gallery/the_weather_channel.png" alt="">
+          <img src="assets/images/gallery/the_weather_channel.png" class="weather-channel" alt="">
         </div>
-        <div class="d-flex flex-column customers-gap">
-          <div class="customer bg-white">
-            <img src="assets/images/gallery/levis.png" alt="">
+        <div class="d-flex align-items-center justify-content-center customers-gap flex-wrap flex-md-nowrap">
+          <div class="d-flex flex-column customers-gap">
+            <div class="customer bg-white">
+              <img src="assets/images/gallery/levis.png" alt="">
+            </div>
+            <div class="customer bg-white">
+              <img src="assets/images/gallery/emblem_health.png" alt="">
+            </div>
+          </div>
+          <div class="d-flex flex-column customers-gap">
+            <div class="customer bg-white">
+              <img src="assets/images/gallery/discount_tire.png" alt="">
+            </div>
+            <div class="customer bg-white">
+              <img src="assets/images/gallery/concentrix.png" alt="">
+            </div>
+            <div class="customer bg-white">
+              <img src="assets/images/gallery/azlo_banking.png" alt="">
+            </div>
           </div>
           <div class="customer bg-white">
-            <img src="assets/images/gallery/emblem_health.png" alt="">
+            <img src="assets/images/gallery/petco.png" alt="">
           </div>
-        </div>
-        <div class="d-flex flex-column customers-gap">
-          <div class="customer bg-white">
-            <img src="assets/images/gallery/discount_tire.png" alt="">
-          </div>
-          <div class="customer bg-white">
-            <img src="assets/images/gallery/concentrix.png" alt="">
-          </div>
-          <div class="customer bg-white">
-            <img src="assets/images/gallery/azlo_banking.png" alt="">
-          </div>
-        </div>
-        <div class="customer bg-white">
-          <img src="assets/images/gallery/petco.png" alt="">
         </div>
       </div>
       <div class="customers-title text-center">
@@ -182,9 +192,9 @@
         <h1 class="text-white fw-bold">All things testing, one solution.</h1>
         <h1 class="text-white fw-bold">TestGrid.</h1>
       </div>
-      <hr class="hr">
-      <div class="d-flex feature-list justify-content-center">
-        <div class="position-relative">
+      <hr class="hr d-xxl-block d-none">
+      <div class="d-flex flex-wrap feature-list justify-content-center">
+        <div class="position-relative mb-5 mb-md-0">
           <h2 class="semi-circle-text text-white position-absolute">
             FASTER
           </h2>
@@ -200,7 +210,7 @@
             </div>
           </div>
         </div>
-        <div class="position-relative">
+        <div class="position-relative mb-5 mb-xxl-0">
           <h2 class="semi-circle-text text-white position-absolute text-nowrap">
             BUG BUSTER
           </h2>
@@ -216,7 +226,8 @@
             </div>
           </div>
         </div>
-        <div class="position-relative">
+        <!-- <hr class="hr2"> -->
+        <div class="position-relative mb-5 mb-md-0">
           <h2 class="semi-circle-text text-white position-absolute">
             INTEGRATION
           </h2>
@@ -248,26 +259,99 @@
             </div>
           </div>
         </div>
-
-
       </div>
     </section>
 
   </div>
   <footer class="">
     <div class="container">
-      <div class="col-lg-3">
-        <a class="footer-brand" href="#">
-          <img src="assets/images/logo.svg" alt="Logo" width="230" height="42" class="d-inline-block align-text-top">
-        </a>
-        <p class="text-white">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 brand-col">
+          <a class="footer-brand" href="#">
+            <img src="assets/images/logo.svg" alt="Logo" width="230" height="42" class="d-inline-block align-text-top">
+          </a>
+          <p class="text-white pe-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+            tempor
+            invidunt ut labore et
+            dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
+        </div>
+        <div class="col-lg-3 col-md-4 mb-3 mb-md-0">
+          <h6 class="footer-heading">Functional Test Automation</h6>
+          <ul class="navbar-nav text-white">
+            <li class="nav-item mb-2">
+              Test Case Management Suite
+            </li>
+            <li class="nav-item mb-2">
+              Test Data Management Suite
+            </li>
+            <li class="nav-item mb-2">
+              API Test Automation
+            </li>
+            <li class="nav-item mb-2">
+              Mobile Test Automation
+            </li>
+            <li class="nav-item mb-2">
+              Iot Testing
+            </li>
+            <li class="nav-item mb-2">
+              Security Testing
+            </li>
+            <li class="nav-item mb-2">
+              Performance Testing NFT
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-4 mb-3 mb-md-0">
+          <h6 class="footer-heading">Functional Test Automation</h6>
+          <ul class="navbar-nav text-white">
+            <li class="nav-item mb-2">
+              Browser & Device Cloud
+            </li>
+            <li class="nav-item mb-2">
+              Mobile Public Cloud
+            </li>
+            <li class="nav-item mb-2">
+              Mobile Private Cloud
+            </li>
+            <li class="nav-item">
+              Mobile In-House Cloud
+            </li>
+            <h6 class="footer-heading compare-to">Compare To</h6>
+            <ul class="navbar-nav text-white">
+              <li class="nav-item mb-2">
+                Sauce Labs
+              </li>
+              <li class="nav-item mb-2">
+                Kobiton
+              </li>
+            </ul>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+          <h6 class="footer-heading">Contact Us</h6>
+          <ul class="navbar-nav text-white">
+            <li class="nav-item mb-2">
+              Tech Support
+            </li>
+            <li class="nav-item mb-2">
+              Careers
+            </li>
+            <li class="nav-item mb-2">
+              Sales
+            </li>
+            <li class="nav-item mb-2">
+              Request Demo
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="col-lg-3"></div>
-      <div class="col-lg-3"></div>
-      <div class="col-lg-3"></div>
     </div>
   </footer>
+  <div class="footer-bottom">
+    <div class="container text-white">
+      © 2022 <span>TestGrid</span>. All rights reserved
+    </div>
+  </div>
 </body>
 
 </html>

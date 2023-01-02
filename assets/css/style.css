@@ -4,6 +4,7 @@
   --background: transparent linear-gradient(270deg, #2F0F5A 0%, #1B0541 100%) 0% 0% no-repeat padding-box;
   --green: #17A689;
   --footer-bg: #0E0227;
+  --hero-gap: 132px;
 }
 
 body {
@@ -56,7 +57,7 @@ section {
 }
 
 .title-2 {
-  font: normal normal bold 50px/65px Montserrat;
+  font: normal normal 600 50px/65px Montserrat;
   color: var(--green);
 }
 
@@ -89,8 +90,15 @@ section {
   margin-top: 50px;
 }
 
+.hero {
+  margin-top: 0;
+}
+
 .hero-banner img {
-  margin-left: 132px;
+  margin-left: var(--hero-gap);
+  max-width: 666px;
+  height: auto;
+  width: 100%;
 }
 
 .pattern {
@@ -136,10 +144,6 @@ section {
   margin-bottom: 123px;
 }
 
-.feature-list {
-  gap: 30px;
-}
-
 .circle {
   color: #251759;
   clip-path: circle(50% at 50% 50%);
@@ -150,6 +154,12 @@ section {
   outline-offset: -10px;
   text-align: center;
   padding-top: 112px;
+}
+
+.separator img {
+  width: 100%;
+  max-width: 1556px;
+  height: auto;
 }
 
 .circle i,
@@ -223,22 +233,59 @@ section {
 .hr {
   margin: 0 auto 10px auto;
   border: 2px dashed #FFFFFF;
-  width: 1024px;
+  width: calc(100% - 370px);
   background: transparent;
+}
+
+.hr2 {
+
 }
 
 footer {
   background: var(--footer-bg);
-  padding-top: 160px;
-  padding-bottom: 64px;
+  padding: 160px 20px 64px 20px;
 }
 
-.footer-brand {
+.footer-bottom {
+  background-color: #000000;
+  font-family: Montserrat;
+  line-height: 30px;
+  padding: 26px 0;
 }
 
-.footer-brand + p {
+.footer-bottom span {
+  color: var(--green);
+}
+
+.footer-brand {}
+
+.footer-brand+p {
   margin-top: 30px;
   font: normal normal 500 20px/30px Montserrat;
+}
+
+.footer-heading {
+  font: normal normal 600 22px/32px Montserrat;
+  color: var(--green);
+  margin-bottom: 30px;
+}
+
+.brand-col {
+  margin-top: -16px;
+}
+
+.compare-to {
+  margin-top: 30px;
+}
+
+footer ul {
+  font: normal normal 600 18px/40px Montserrat;
+}
+
+.blog-img img {
+  width: auto;
+  max-width: inherit;
+  height: auto;
 }
 
 /* MEDIA QUERIES */
@@ -253,13 +300,24 @@ footer {
   }
 }
 
-@media (max-width: 1400px) and (min-width: 992px) {
+@media (max-width: 1600px) and (min-width: 1280px) {
   .navbar-brand {
-    margin-right: 50px;
+    margin-right: 40px;
   }
-
+  
   nav .navbar-nav {
     gap: 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1280px) and (min-width: 992px) {
+  .navbar-brand {
+    margin-right: 22px;
+  }
+  nav .navbar-nav {
+    gap: 12px;
+    font-size: 14px;
   }
 }
 
@@ -267,10 +325,94 @@ footer {
   nav .navbar-nav {
     gap: 10px;
   }
+
+  nav .book-a-demo {
+    padding: 8px;
+  }
 }
 
 @media (max-width: 992px) {
+  nav {
+    margin-bottom: 24px;
+  }
+
+  section {
+    margin: 60px 0;
+  }
+
   nav .navbar-nav {
     gap: 10px;
   }
+
+  #navbarNav {
+    gap: 30px;
+  }  
+  
+  footer {
+    padding-top: 80px;
+    padding-bottom: 32px;
+  }
+  
+  .footer-heading {
+    margin-bottom: 18px;
+  }
+  
+  .brand-col {
+    margin-top: unset;
+  }
+
+  .blog-img img {
+    width: inherit;
+  }
 }
+
+@media (max-width: 767px) {
+  .hr {
+    display: none;
+  }
+
+  section {
+    margin: 74px 0;
+  }
+}
+
+.weather-channel {
+  max-width: 226px !important;
+  width: 100% !important;
+  height: auto !important;
+}
+
+.customer img {
+  max-width: 134px;
+  width: 100%;
+  height: auto;
+}
+
+
+.customer {
+  text-align: center;
+}
+/* @media (max-width: 1400px) and (min-width: 1200px) {
+} */
+
+@media (max-width: 1200px) {
+  .customers-container {
+    margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 1450px) and (min-width: 1300px) {
+  .hero-banner img {
+    margin-left: var(--hero-gap)/2;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero-banner img {
+    margin-left: 0;
+  }
+}
+
+/* .customer img {
+  width: auto;
+} */
