@@ -253,13 +253,13 @@ footer {
 
 .footer-brand+p {
   margin-top: 30px;
-  font: normal normal 500 20px/30px Montserrat;
+  font: normal normal 500 18px/30px Montserrat;
 }
 
 .footer-heading {
-  font: normal normal 600 22px/32px Montserrat;
+  font: normal normal 600 18px/32px Montserrat;
   color: var(--green);
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .brand-col {
@@ -271,7 +271,11 @@ footer {
 }
 
 footer ul {
-  font: normal normal 600 18px/40px Montserrat;
+  font: normal normal 400 16px/40px Montserrat;
+}
+
+footer ul li {
+  cursor: pointer;
 }
 
 .blog-img img {
@@ -362,6 +366,20 @@ footer ul {
   }
 }
 
+@media (max-width: 1112px) {
+  .customers-title .green {
+    font-size: 38px;
+  }
+
+  .customers-title .green~h1 {
+    font-size: 32px;
+  }
+
+  .features .section-title h1 {
+    font-size: 32px;
+  }
+}
+
 @media (max-width: 992px) {
   nav {
     margin-bottom: 24px;
@@ -402,9 +420,64 @@ footer ul {
 }
 
 @media (max-width: 767px) {
+
+  .title-1,
+  .title-2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .hero .description {
+    font-size: 18px;
+  }
+
+  .hero .price,
+  .hero .price .green {
+    font-size: 22px;
+  }
+
+  .cta {
+    margin-top: 30px;
+  }
+
+  .blog-title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .blog-description p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .customers-title .green {
+    font-size: 32px;
+  }
+
+  .customers-title .green~h1 {
+    font-size: 28px;
+  }
+
+  .features .section-title h1 {
+    font-size: 28px;
+  }
+
+  .features .section-title h1 {
+    line-height: 36px;
+  }
+
+  section {
+    margin: 32px 0;
+  }
+
   .hr {
     display: none;
   }
+
+  .customers-gap {
+    gap: 5px;
+  }
+
 }
 
 .weather-channel {
