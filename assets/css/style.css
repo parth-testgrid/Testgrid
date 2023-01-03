@@ -35,13 +35,6 @@ nav .book-a-demo {
   white-space: nowrap;
 }
 
-/* .nav-item:not(:last-child, :first-child) {
-  margin: 0 20px;
-}
-.nav-item:first-child {
-  margin-right: 20px;
-} */
-
 nav .navbar-nav {
   gap: 40px;
 }
@@ -51,11 +44,11 @@ section {
 }
 
 .title-1 {
-  font: normal normal 600 50px/65px Montserrat;
+  font: normal normal 600 50px/50px Montserrat;
 }
 
 .title-2 {
-  font: normal normal 600 50px/65px Montserrat;
+  font: normal normal 700 50px/50px Montserrat;
   color: var(--green);
 }
 
@@ -284,16 +277,22 @@ footer ul li {
   height: auto;
 }
 
-/* MEDIA QUERIES */
+/ MEDIA QUERIES /
 
 @media (max-width: 1600px) and (min-width: 1280px) {
   .navbar-brand {
     margin-right: 40px;
   }
-
+  
   nav .navbar-nav {
     gap: 20px;
     font-size: 14px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .hero-banner img {
+    margin-left: 0px;
   }
 }
 
