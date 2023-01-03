@@ -86,7 +86,6 @@ section {
 }
 
 .hero-banner img {
-  margin-left: var(--hero-gap);
   max-width: 666px;
   height: auto;
   width: 100%;
