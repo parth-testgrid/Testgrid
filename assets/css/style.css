@@ -277,7 +277,7 @@ footer ul li {
   height: auto;
 }
 
-/ MEDIA QUERIES /
+/** MEDIA QUERIES **/
 
 @media (max-width: 1600px) and (min-width: 1280px) {
   .navbar-brand {
