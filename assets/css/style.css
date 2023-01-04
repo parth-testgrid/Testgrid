@@ -93,8 +93,6 @@ section {
 
 .pattern {
   z-index: -1;
-  /* bottom: -194px;
-  right: -303px; */
   bottom: -36px;
   right: 0px;
 }
@@ -343,7 +341,6 @@ footer ul li {
 }
 
 @media (max-width: 1112px) and (min-width: 768px) {
-
   .title-1,
   .title-2 {
     font-size: 32px;
@@ -418,7 +415,6 @@ footer ul li {
 }
 
 @media (max-width: 767px) {
-
   .title-1,
   .title-2 {
     font-size: 28px;
@@ -499,9 +495,6 @@ footer ul li {
   text-align: center;
 }
 
-/* @media (max-width: 1400px) and (min-width: 1200px) {
-} */
-
 @media (max-width: 1200px) {
   .customers-container {
     margin-bottom: 120px;
@@ -519,8 +512,3 @@ footer ul li {
     margin-left: 0;
   }
 }
-
-
-/* .customer img {
-  width: auto;
-} */
