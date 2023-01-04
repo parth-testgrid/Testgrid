@@ -229,7 +229,7 @@ section {
 
 footer {
   background: var(--footer-bg);
-  padding: 160px 20px 64px 20px;
+  padding: 80px 20px 64px 20px;
 }
 
 .footer-bottom {
@@ -423,6 +423,10 @@ footer ul li {
   .title-2 {
     font-size: 28px;
     line-height: 36px;
+  }
+  
+  .navbar-brand {
+    margin-right: 20px;
   }
 
   .hero .description {
