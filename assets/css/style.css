@@ -274,6 +274,18 @@ footer ul li {
   height: auto;
 }
 
+.chat-btn {
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 50%;
+  background-color: var(--green);
+  padding: 10px;
+  border: 0;
+}
+
 /** MEDIA QUERIES **/
 
 @media (max-width: 1600px) and (min-width: 1280px) {
